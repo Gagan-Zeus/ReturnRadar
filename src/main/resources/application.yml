@@ -1,3 +1,6 @@
 spring:
   profiles:
     active: local
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
