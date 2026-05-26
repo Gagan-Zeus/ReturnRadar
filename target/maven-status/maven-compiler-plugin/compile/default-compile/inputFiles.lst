@@ -1,1 +1,13 @@
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/ReturnRadarApplication.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/entity/Customer.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/entity/Order.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/entity/OrderItem.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/entity/Product.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/entity/ReturnInspection.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/entity/ReturnRequest.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/enums/Gender.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/enums/IssueType.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/enums/ProductCategory.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/enums/ProductCondition.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/enums/ReturnReason.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/enums/ReturnStatus.java

@@ -1,1 +1,13 @@
+com/returnradar/enums/IssueType.class
+com/returnradar/enums/ReturnStatus.class
+com/returnradar/entity/ReturnRequest.class
+com/returnradar/enums/ReturnReason.class
+com/returnradar/entity/ReturnInspection.class
+com/returnradar/entity/Product.class
 com/returnradar/ReturnRadarApplication.class
+com/returnradar/entity/Order.class
+com/returnradar/entity/OrderItem.class
+com/returnradar/enums/Gender.class
+com/returnradar/entity/Customer.class
+com/returnradar/enums/ProductCategory.class
+com/returnradar/enums/ProductCondition.class
