@@ -21,6 +21,7 @@ com/returnradar/entity/Customer$CustomerBuilder.class
 com/returnradar/dto/request/OrderRequest$OrderRequestBuilder.class
 com/returnradar/entity/OrderItem$OrderItemBuilder.class
 com/returnradar/mapper/OrderMapper.class
+com/returnradar/exception/GlobalExceptionHandler.class
 com/returnradar/entity/ReturnRequest$ReturnRequestBuilder.class
 com/returnradar/dto/request/ProductRequest$ProductRequestBuilder.class
 com/returnradar/dto/request/OrderRequest.class
@@ -35,9 +36,11 @@ com/returnradar/dto/response/DataQualityIssueResponse.class
 com/returnradar/dto/response/SuspiciousCustomerResponse$SuspiciousCustomerResponseBuilder.class
 com/returnradar/repository/AnalyticsSnapshotRepository.class
 com/returnradar/entity/AnalyticsSnapshot.class
+com/returnradar/exception/ErrorResponse.class
 com/returnradar/dto/response/ReturnInspectionResponse$ReturnInspectionResponseBuilder.class
 com/returnradar/dto/request/OrderItemRequest$OrderItemRequestBuilder.class
 com/returnradar/entity/Order.class
+com/returnradar/exception/ValidationException.class
 com/returnradar/dto/request/ProductRequest.class
 com/returnradar/entity/AnalyticsSnapshot$AnalyticsSnapshotBuilder.class
 com/returnradar/enums/ProductCondition.class
@@ -51,6 +54,7 @@ com/returnradar/dto/response/HighReturnProductResponse.class
 com/returnradar/dto/response/AnalyticsSnapshotResponse.class
 com/returnradar/dto/response/ProductResponse$ProductResponseBuilder.class
 com/returnradar/dto/response/CustomerResponse$CustomerResponseBuilder.class
+com/returnradar/exception/ResourceNotFoundException.class
 com/returnradar/enums/ReturnReason.class
 com/returnradar/dto/response/CustomerResponse.class
 com/returnradar/repository/OrderRepository.class
@@ -60,10 +64,12 @@ com/returnradar/repository/ReturnInspectionRepository.class
 com/returnradar/enums/Gender.class
 com/returnradar/repository/OrderItemRepository.class
 com/returnradar/dto/response/ProductResponse.class
+com/returnradar/exception/BusinessRuleException.class
 com/returnradar/dto/response/SuspiciousCustomerResponse.class
 com/returnradar/enums/IssueType.class
 com/returnradar/entity/ReturnRequest.class
 com/returnradar/dto/response/OrderResponse$OrderResponseBuilder.class
+com/returnradar/exception/DuplicateReturnException.class
 com/returnradar/dto/request/CustomerRequest.class
 com/returnradar/entity/DataQualityIssue$DataQualityIssueBuilder.class
 com/returnradar/dto/response/OrderItemResponse.class
@@ -71,4 +77,5 @@ com/returnradar/mapper/ProductMapper.class
 com/returnradar/entity/OrderItem.class
 com/returnradar/entity/Customer.class
 com/returnradar/dto/response/ReturnRequestResponse.class
+com/returnradar/exception/ErrorResponse$ErrorResponseBuilder.class
 com/returnradar/dto/response/AnalyticsSnapshotResponse$AnalyticsSnapshotResponseBuilder.class

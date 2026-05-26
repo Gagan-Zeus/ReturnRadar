@@ -32,6 +32,12 @@
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/enums/ProductCondition.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/enums/ReturnReason.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/enums/ReturnStatus.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/exception/BusinessRuleException.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/exception/DuplicateReturnException.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/exception/ErrorResponse.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/exception/GlobalExceptionHandler.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/exception/ResourceNotFoundException.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/exception/ValidationException.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/mapper/CustomerMapper.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/mapper/InspectionMapper.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/mapper/OrderMapper.java
