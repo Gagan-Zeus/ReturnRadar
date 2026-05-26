@@ -1,1 +1,49 @@
-.vscode
+# Maven
+target/
+*.war
+*.ear
+*.nar
+
+# Java
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# Spring Boot and local configuration
+application-*.local.yml
+application-*.local.yaml
+application-*.local.properties
+.env
+.env.*
+!.env.example
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.settings/
+.classpath
+.project
+.factorypath
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build and dependency caches
+.gradle/
+build/
+out/
+
+# Test and coverage reports
+coverage/
+*.lcov
+.jacoco/
+
+# Docker and generated runtime files
+docker-compose.override.yml
+*.pid
+*.seed
