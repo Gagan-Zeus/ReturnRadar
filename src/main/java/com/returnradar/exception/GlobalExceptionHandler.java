@@ -42,7 +42,7 @@ public class GlobalExceptionHandler {
             BusinessRuleException exception,
             HttpServletRequest request
     ) {
-        return buildResponse(HttpStatus.UNPROCESSABLE_ENTITY, exception.getMessage(), request);
+        return buildResponse(HttpStatus.UNPROCESSABLE_CONTENT, exception.getMessage(), request);
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
