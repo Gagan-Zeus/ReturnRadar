@@ -37,6 +37,8 @@ Thumbs.db
 .gradle/
 build/
 out/
+node_modules/
+dist/
 
 # Test and coverage reports
 coverage/

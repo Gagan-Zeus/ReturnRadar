@@ -15,6 +15,12 @@ E-commerce and fashion brands lose millions annually to fraudulent and high-volu
 - Swagger/OpenAPI with Springdoc
 - JUnit 5 and Mockito
 - Lombok
+- React 18 + Vite
+- Tailwind CSS
+- Recharts
+- React Router v6
+- Axios
+- Lucide React
 
 ## Architecture
 
@@ -33,6 +39,7 @@ Controller -> Service -> Repository -> Entity
 - **Exception Handling**: Centralized through `GlobalExceptionHandler`.
 - **Scheduler**: Aggregates hourly analytics snapshots with Spring Scheduling.
 - **Seed Data**: Loads sample customers, products, orders, returns, and inspections on first startup.
+- **Frontend**: React/Vite single-page app with routed dashboard pages, Axios API modules, Recharts visualizations, modal forms, toast notifications, and Tailwind styling based on the Stitch export.
 
 ## Database Tables
 
@@ -82,6 +89,7 @@ The current project defines 8 JPA entities:
    - Java 25
    - Maven
    - PostgreSQL
+   - Node.js 18+
 2. Create the database:
 
 ```sql
@@ -98,17 +106,50 @@ spring:
     password: postgres
 ```
 
-4. Run the application:
+4. Run the Spring Boot API:
 
 ```bash
 mvn spring-boot:run
 ```
 
-5. Access Swagger UI:
+5. In another terminal, run the React frontend:
+
+```bash
+npm install
+npm run dev
+```
+
+6. Access the apps:
 
 ```text
-http://localhost:8080/swagger-ui/index.html
+Frontend:   http://localhost:5173
+Swagger UI: http://localhost:8080/swagger-ui/index.html
+API Base:   http://localhost:8080
 ```
+
+The backend allows local Vite origins through `CorsConfig`.
+
+## Frontend Routes
+
+| Route | Page |
+| --- | --- |
+| `/` | Dashboard |
+| `/returns` | Return requests |
+| `/products` | Product inventory |
+| `/customers` | Customer profiles |
+| `/inspections` | Warehouse inspections |
+| `/analytics` | Analytics overview |
+| `/data-quality` | Data quality issues |
+
+## Frontend Scripts
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+`npm run dev` starts Vite on `http://localhost:5173` and connects to the backend at `http://localhost:8080`.
 
 ## How to Run with Docker
 
@@ -124,11 +165,14 @@ mvn package -DskipTests
 docker-compose up --build
 ```
 
-3. Access Swagger UI:
+3. Access:
 
 ```text
-http://localhost:8080/swagger-ui/index.html
+Swagger UI: http://localhost:8080/swagger-ui/index.html
+API Base:   http://localhost:8080
 ```
+
+The current Docker Compose setup runs PostgreSQL and the Spring Boot API. Run the React frontend separately with `npm run dev`.
 
 ## Sample API Requests
 

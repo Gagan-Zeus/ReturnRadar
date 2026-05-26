@@ -15,6 +15,7 @@ import com.returnradar.repository.ReturnInspectionRepository;
 import com.returnradar.repository.ReturnRequestRepository;
 import com.returnradar.service.ReturnInspectionService;
 import java.time.LocalDateTime;
+import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -49,6 +50,14 @@ public class ReturnInspectionServiceImpl implements ReturnInspectionService {
         }
 
         return InspectionMapper.toResponse(returnInspectionRepository.save(inspection));
+    }
+
+    @Override
+    public List<ReturnInspectionResponse> getAllInspections() {
+        return returnInspectionRepository.findAll()
+                .stream()
+                .map(InspectionMapper::toResponse)
+                .toList();
     }
 
     @Override

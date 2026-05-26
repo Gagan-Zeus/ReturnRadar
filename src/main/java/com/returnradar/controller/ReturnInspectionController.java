@@ -7,6 +7,7 @@ import com.returnradar.service.ReturnInspectionService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
+import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -24,6 +25,20 @@ import org.springframework.web.bind.annotation.RestController;
 public class ReturnInspectionController {
 
     private final ReturnInspectionService returnInspectionService;
+
+    @GetMapping
+    @Operation(
+            summary = "Get all return inspections",
+            description = "Fetches all warehouse inspection records."
+    )
+    public ResponseEntity<ApiResponse<List<ReturnInspectionResponse>>> getAllInspections() {
+        List<ReturnInspectionResponse> response = returnInspectionService.getAllInspections();
+        return ResponseEntity.ok(ApiResponse.<List<ReturnInspectionResponse>>builder()
+                .success(true)
+                .message("Return inspections fetched successfully")
+                .data(response)
+                .build());
+    }
 
     @PostMapping
     @Operation(
