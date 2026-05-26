@@ -1,5 +1,7 @@
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/ReturnRadarApplication.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/entity/AnalyticsSnapshot.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/entity/Customer.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/entity/DataQualityIssue.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/entity/Order.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/entity/OrderItem.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/entity/Product.java

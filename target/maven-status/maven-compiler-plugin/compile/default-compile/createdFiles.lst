@@ -3,6 +3,8 @@ com/returnradar/enums/ReturnStatus.class
 com/returnradar/entity/ReturnRequest.class
 com/returnradar/enums/ReturnReason.class
 com/returnradar/entity/ReturnInspection.class
+com/returnradar/entity/AnalyticsSnapshot.class
+com/returnradar/entity/DataQualityIssue.class
 com/returnradar/entity/Product.class
 com/returnradar/ReturnRadarApplication.class
 com/returnradar/entity/Order.class
