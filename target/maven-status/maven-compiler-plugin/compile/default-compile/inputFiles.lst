@@ -1,4 +1,10 @@
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/ReturnRadarApplication.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/dto/request/CustomerRequest.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/dto/request/OrderItemRequest.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/dto/request/OrderRequest.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/dto/request/ProductRequest.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/dto/request/ReturnInspectionRequest.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/dto/request/ReturnRequestDto.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/entity/AnalyticsSnapshot.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/entity/Customer.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/entity/DataQualityIssue.java
@@ -13,3 +19,11 @@
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/enums/ProductCondition.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/enums/ReturnReason.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/enums/ReturnStatus.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/repository/AnalyticsSnapshotRepository.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/repository/CustomerRepository.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/repository/DataQualityIssueRepository.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/repository/OrderItemRepository.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/repository/OrderRepository.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/repository/ProductRepository.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/repository/ReturnInspectionRepository.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/repository/ReturnRequestRepository.java
