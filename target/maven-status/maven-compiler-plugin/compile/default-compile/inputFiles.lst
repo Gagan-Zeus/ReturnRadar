@@ -32,6 +32,11 @@
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/enums/ProductCondition.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/enums/ReturnReason.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/enums/ReturnStatus.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/mapper/CustomerMapper.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/mapper/InspectionMapper.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/mapper/OrderMapper.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/mapper/ProductMapper.java
+/Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/mapper/ReturnMapper.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/repository/AnalyticsSnapshotRepository.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/repository/CustomerRepository.java
 /Users/gagandeeps/Documents/ReturnRadar/src/main/java/com/returnradar/repository/DataQualityIssueRepository.java
